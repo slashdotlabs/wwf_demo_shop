@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1d71252ced0126dca14f82f21e63f22",
+    "content-hash": "5878fc6529c404b687dd7944c9119611",
     "packages": [
         {
             "name": "composer/installers",
@@ -565,15 +565,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.9.3",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.9.3"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.9.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -952,7 +952,9 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "ext-mbstring": "*",
+        "ext-gd": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
