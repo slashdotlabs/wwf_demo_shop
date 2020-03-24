@@ -44,7 +44,9 @@
     "wpackagist-plugin/woocommerce":"3.9.3",
     "wpackagist-plugin/wp-mail-smtp": "^1.9",
     "wpackagist-plugin/woocommerce-admin": "^1.0",
-    "wpackagist-plugin/health-check":"1.4.2"
+    "wpackagist-plugin/health-check":"1.4.2",
+    "ext-mbstring": "*",
+    "ext-gd": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
