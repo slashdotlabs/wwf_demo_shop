@@ -40,7 +40,10 @@
     "oscarotero/env": "^1.1.0",
     "roots/wordpress": "^5.2.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/woocommerce": "^4.0",
+    "wpackagist-plugin/wp-mail-smtp": "^1.9",
+    "wpackagist-plugin/woocommerce-admin": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
